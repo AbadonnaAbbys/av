@@ -1,0 +1,22 @@
+h1, .container {
+    width: 500px;
+    margin: 0 auto;
+}
+h1 {
+    padding: 20px 0px 20px 0px;
+}
+div.field {
+    margin-bottom: 20px;
+}
+label {
+    display: block;
+    width: 150px;
+}
+
+.error {
+    color: crimson;
+}
+
+input {
+    width: 100%;
+}

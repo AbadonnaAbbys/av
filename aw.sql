@@ -1,0 +1,10 @@
+CREATE TABLE user
+(
+  id INT(10) UNSIGNED PRIMARY KEY NOT NULL,
+  username VARCHAR(45) NOT NULL,
+  email VARCHAR(255) NOT NULL,
+  password CHAR(32) NOT NULL
+);
+CREATE UNIQUE INDEX email_UNIQUE ON user (email);
+CREATE UNIQUE INDEX id_UNIQUE ON user (id);
+CREATE UNIQUE INDEX username_UNIQUE ON user (username);
